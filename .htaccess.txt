@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www.callummsmith.co.uk [NC]
+RewriteRule ^(.*)$ https://callummsmith.co.uk [L,R=301]

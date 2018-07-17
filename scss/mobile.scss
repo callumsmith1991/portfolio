@@ -1,0 +1,57 @@
+@media only screen and (max-width: 450px) {
+    .bottom-left, .bottom-right {
+        display: none;
+    }
+    #site-header {
+        padding: 10px 4.3333333% 0px 4.33333%;
+        nav {
+            .name {
+                padding: 0px !important;
+            }
+        }
+    }
+    .mobile {
+        display: block;
+        position: relative;
+        top: 50px;
+    }
+    header#site-header {
+        nav {
+            text-align: center;
+            .name{
+                float: none;
+                width: 100%;
+                text-align: center;
+            }
+            a {
+               padding: 20px 10px 10px 20px;
+            }
+        }
+    }
+    section#second {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        div.row {
+            img {
+                padding-top: 0px;
+            }
+        }
+    }
+    section#third {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+}
+
+
+@media only screen and (max-width: 350px) {
+  header#site-header {
+        nav {
+            a {
+               font-size: 12px;
+            }
+        }
+    }  
+}
+
+
